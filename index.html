@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Something Special 💝</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family: 'Comic Sans MS', cursive, system-ui;
+      background: linear-gradient(135deg, #ffd6e8, #e0f0ff);
+    }
+
+    .card{
+      background:white;
+      padding:40px;
+      border-radius:25px;
+      text-align:center;
+      box-shadow:0 20px 40px rgba(0,0,0,0.15);
+      animation: pop 1s ease;
+    }
+
+    @keyframes pop{
+      from{transform:scale(0.8); opacity:0;}
+      to{transform:scale(1); opacity:1;}
+    }
+
+    h1{
+      margin-bottom:20px;
+      color:#ff4f9a;
+    }
+
+    a{
+      display:inline-block;
+      padding:15px 30px;
+      background:#ff4f9a;
+      color:white;
+      text-decoration:none;
+      font-size:18px;
+      border-radius:50px;
+      transition:transform 0.2s, box-shadow 0.2s;
+    }
+
+    a:hover{
+      transform:scale(1.1);
+      box-shadow:0 10px 25px rgba(255,79,154,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Hey you 👀💗</h1>
+    <p>I have something special for you...</p>
+    <br>
+    <a href="birthday.html">✨ Click here ✨</a>
+  </div>
+
+</body>
+</html>
